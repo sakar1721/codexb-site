@@ -33,19 +33,8 @@ jobs:
           hugo-version: "0.145.0"
           extended: true
 
-              - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: "0.145.0"
-          extended: true
-
       - name: Clear Hugo Cache
         run: rm -rf $HOME/.cache/hugo_cache
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
 
       - name: Setup Node
         uses: actions/setup-node@v4
