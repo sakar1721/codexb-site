@@ -1,93 +1,48 @@
 ---
-title: Goldydocs
-description: Porridge temperature assessment &mdash; in the cloud!
-params:
-  body_class: td-navbar-links-all-active
+title: CODEX-b
+description: Searching for long-lived particles at the LHC
 ---
-
 {{% blocks/cover
-  title="Welcome to Goldydocs: A Docsy Example and Starter Project!"
+  title="CODEX-b: Searching for Long-Lived Particles at the LHC"
   height="full td-below-navbar"
   image_anchor="top"
 %}}
-
-<!--
-  Want a cover without an image?
-  Add the following argument to the blocks/cover shortcode:
-    color="primary bg-gradient td-below-navbar"
--->
-
-<!-- prettier-ignore -->
 {{% _param description %}}
 {.display-6}
-
-<!-- prettier-ignore -->
 <div class="td-cta-buttons my-5">
   <a {{% _param btn-lg primary %}} href="docs/">
-    Learn more
+    Read the docs
   </a>
   <a {{% _param btn-lg secondary %}}
-    href="{{% param github_repo %}}"
+    href="https://arxiv.org/abs/1911.00481"
     target="_blank" rel="noopener noreferrer">
-    Get the code
-    {{% _param FA brands github "" %}}
+    View proposal
   </a>
 </div>
-
 {{% blocks/link-down color="info" %}}
-
 {{% /blocks/cover %}}
 
 {{% blocks/lead color="white" %}}
-
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
-
+The **CODEX-b** (COmpact Detector for EXotics at LHCb) experiment is a proposed particle detector that would be installed at the CERN Large Hadron Collider (LHC), in an underground cavern next to LHCb’s interaction point (IP8).
 {{% /blocks/lead %}}
 
 {{% blocks/section color="primary" type="row" %}}
-
-{{% blocks/feature title="New chair metrics!" icon="fa-lightbulb" %}}
-
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
-
+{{% blocks/feature title="Zero background" icon="fa-shield-alt" %}}
+A concrete shield separates the detector from IP8, providing an
+essentially background-free search environment for LLP decays.
 {{% /blocks/feature %}}
 
-{{% blocks/feature
-  title="Contributions welcome!" icon="fab fa-github"
-  url="https://github.com/google/docsy-example"
-%}}
-
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
-
+{{% blocks/feature title="Complementary to LHCb" icon="fa-atom" %}}
+Exploits the existing LHCb trigger and infrastructure at IP8,
+maximising physics reach at minimal incremental cost.
 {{% /blocks/feature %}}
 
-{{% blocks/feature
-  title="Follow us on X!" icon="fab fa-x-twitter"
-  url="https://x.com/docsydocs"
-%}}
-
-For announcement of latest features etc.
-
+{{% blocks/feature title="HL-LHC ready" icon="fa-chart-line" %}}
+Targeting 300 fb⁻¹ of integrated luminosity during the
+High-Luminosity LHC era with sensitivity to a wide range of BSM couplings.
 {{% /blocks/feature %}}
-
 {{% /blocks/section %}}
 
-{{% blocks/section color="white" type="row text-center h1" %}}
-
-This is the second section
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="secondary" type="row text-center h1" %}}
-
-This is the another section with center alignment
+{{% blocks/section color="white" type="row text-center" %}}
 
 {{% /blocks/section %}}
